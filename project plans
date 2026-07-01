@@ -1,0 +1,9 @@
+hospital-readmission-analysis/
+│
+├── data/
+├── sql/
+├── python/
+├── dashboard/
+├── presentation/
+├── images/
+└── README.md
