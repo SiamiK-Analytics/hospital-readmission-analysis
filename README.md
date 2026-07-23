@@ -71,3 +71,130 @@ By identifying important patterns in readmission data, this analysis can help he
 
 -Are medication changes during hospitalization associated with different readmission outcomes?
 
+
+
+# Prepare phase using Kaggle:
+
+The objective of the Prepare phase was to assess, organize, and validate the dataset to ensure that the patient records and variables were complete, consistent, and suitable for analyzing factors associated with 30-day hospital readmission.
+
+After defining the business problem and analytical questions, I moved into the Prepare phase.
+The dataset used in this project contains 18,000 patient records and 25 variables related to demographics, previous healthcare utilization, clinical conditions, laboratory measurements, medications, follow-up care, and discharge outcomes.
+The primary outcome variable for this analysis is Readmitted_Within_30_Days, which identifies whether a patient was readmitted within 30 days of discharge.
+Before beginning the analysis, I organized the variables into logical categories to better understand how each group could relate to readmission risk. These categories included patient demographics, previous hospital utilization, clinical severity, chronic disease burden, medication-related factors, follow-up care, and discharge information.
+I also assessed the dataset for data quality issues, including missing values, duplicate records, inconsistent data types, invalid values, and potential outliers.
+The goal of this phase was to ensure that the data was reliable, structured, and ready for analysis. Establishing a clean and well-understood dataset was important because the quality of the analysis depends on the quality of the data being analyzed.
+
+### Slide Title: Prepare — Understanding the Data
+
+Dataset:
+
+--18,000 patient records
+
+--25 variables
+
+--CSV format
+
+Data Domains:
+
+--Demographics
+
+--Healthcare utilization
+
+--Clinical conditions
+
+--Laboratory measurements
+
+--Medications
+
+--Follow-up care
+
+--Discharge outcomes
+
+Target Variable:
+
+-Readmitted_Within_30_Days
+
+Data Preparation Goals:
+
+--Validate data types
+
+--Identify missing values
+
+--Check duplicates
+
+--Review outliers
+
+--Standardize categorical variables
+
+--Confirm target variable coding
+
+🔥 Strong transition into the Process phase
+End your Prepare section with:
+“Once I understood the structure and quality of the dataset, the next step was to clean and transform the data so it could be analyzed consistently across Excel, SQL, Python, and Tableau.”
+
+****extra to know or consider:
+Understanding the Dataset Structure
+
+Your dataset contains variables that can be organized into analytical categories:
+
+👤 Demographic Variables
+
+---Age
+
+--Gender
+
+--Insurance_Type
+
+--Socioeconomic_Risk_Score
+
+🏥 Previous Healthcare Utilization
+
+--Previous_Admissions_6M
+
+--Previous_Readmissions_1Y
+
+--Time_Since_Last_Discharge
+
+🩺 Clinical and Disease Burden
+
+--Primary_Diagnosis_Group
+
+--Comorbidity_Index
+
+--Chronic_Disease_Count
+
+--Severity_Score
+
+--ICU_Stay_Flag
+
+🧪 Clinical Measurements
+
+--HbA1c_Level
+
+--Creatinine_Level
+
+--Hemoglobin_Level
+
+--Average_Systolic_BP
+
+💊 Medication Factors
+
+--Number_of_Medications
+
+--Medication_Change_Count
+
+--High_Risk_Medication_Flag
+
+--Medication_Adherence_Score
+
+📅 Discharge and Follow-Up
+
+--Followup_Appointment_Scheduled
+--Discharge_Disposition
+
+🎯 Target Variable
+
+--Readmitted_Within_30_Days
+
+This categorization is important because it connects directly to your research questions.
+
