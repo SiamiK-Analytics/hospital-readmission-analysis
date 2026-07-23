@@ -198,3 +198,58 @@ Your dataset contains variables that can be organized into analytical categories
 
 This categorization is important because it connects directly to your research questions.
 
+
+
+# Process phase using Xcel:Process Phase Presentation Script
+
+After understanding the dataset during the Prepare phase, I moved into the Process phase.
+The purpose of this phase was to ensure that the data was accurate, consistent, and ready for analysis.
+I began by reviewing the dataset for missing values, duplicate records, invalid entries, and potential outliers. I also verified that numerical variables were correctly formatted as numbers and that categorical variables were consistently standardized.
+Because the primary outcome of this project is 30-day hospital readmission, I carefully validated the Readmitted_Within_30_Days variable to ensure that the outcome was consistently coded as zero for patients who were not readmitted and one for patients who were readmitted.
+I also reviewed binary variables such as ICU_Stay_Flag, High_Risk_Medication_Flag, and Followup_Appointment_Scheduled to ensure that their values were consistently coded.
+Finally, I transformed selected variables into analytical categories, such as age groups, previous admission groups, and chronic disease burden categories. These transformations made it easier to identify patterns and compare readmission rates across different patient populations.
+After completing these steps, I had a clean and structured dataset that was ready for deeper analysis using SQL, Python, and Tableau.
+  
+📊 What Your Process Phase Can Look Like
+
+PROCESS: Cleaning and Preparing the Data
+
+-Step 1 — Data Quality Checks
+
+-Checked for missing values
+
+-Identified duplicate records
+
+-Reviewed invalid values
+
+-Investigated outliers
+
+Step 2 — Data Standardization
+
+-Standardized categorical variables
+
+-Verified binary variables
+
+-Confirmed numeric data types
+
+Step 3 — Data Transformation
+
+-Created analytical categories
+
+-Prepared variables for SQL analysis
+
+-Prepared data for Python analysis
+
+-Structured fields for Tableau visualizations
+
+Step 4 — Validation
+
+-Confirmed the target variable was correctly coded
+
+-Verified that the final dataset was analysis-ready
+
+🔥 Strong Transition to the Analyze Phase
+
+End your Process section with:
+
+“Once the data had been cleaned, standardized, and validated, I was ready to move into the Analyze phase and begin investigating which factors were most strongly associated with 30-day hospital readmission.”
