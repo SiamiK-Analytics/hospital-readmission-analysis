@@ -253,3 +253,64 @@ Step 4 — Validation
 End your Process section with:
 
 “Once the data had been cleaned, standardized, and validated, I was ready to move into the Analyze phase and begin investigating which factors were most strongly associated with 30-day hospital readmission.”
+
+
+
+
+# Analyse phase with Xcel,SQL, Python:
+
+🎯 Analyze Phase Objective
+
+The objective of the Analyze phase was to examine patterns and relationships within the patient data to determine which demographic, clinical, healthcare utilization, medication, and discharge-related factors were associated with 30-day hospital readmission.
+
+****Your Analyze Phase Presentation Script
+
+After cleaning and validating the dataset, I moved into the Analyze phase.
+
+The purpose of this phase was to identify patterns and relationships between patient characteristics and 30-day hospital readmission.
+
+I began by calculating the overall readmission rate to establish a baseline for the analysis. From there, I examined several categories of potential factors, including previous healthcare utilization, clinical complexity, medication management, post-discharge care, demographics, and socioeconomic risk.
+
+First, I analyzed whether patients with a history of previous admissions or readmissions had different readmission rates compared with patients who had less prior hospital utilization.
+
+Next, I examined clinical complexity by looking at comorbidity burden, chronic disease count, severity score, and ICU stays.
+I also analyzed medication-related factors, including the number of medications, medication changes, high-risk medications, and medication adherence.
+
+Because the transition from hospital to home may be important, I examined whether follow-up appointments and discharge disposition were associated with different readmission outcomes.
+
+Finally, I compared readmission rates across demographic and socioeconomic factors, including age, gender, insurance type, and socioeconomic risk score.
+
+The goal of this phase was not simply to identify differences between groups, but to determine which patterns appeared most strongly associated with 30-day readmission and could provide meaningful insights for healthcare decision-making.
+
+# 🔥 How to Make Your Analyze Phase Stand Out
+Don't simply say:
+
+“Patients with X had a higher readmission rate.”
+
+Instead, present each finding like this:
+
+Finding
+
+What did the data show?
+
+Does the analysis show association or causation?
+
+For example:
+
+Finding: Patients with previous readmissions had a higher 30-day readmission rate than patients without previous readmissions.
+
+Interpretation: This suggests that prior hospital utilization may be an important indicator of future readmission risk.
+Caution: This relationship is associative and does not prove that previous readmissions directly cause future readmissions.
+
+
+🎯 Your Analyze Phase Transition
+
+End the section with:
+
+“After analyzing these factors, I identified the strongest patterns associated with 30-day readmission. The next step was to translate those findings into clear visualizations and communicate the insights to healthcare stakeholders.”
+That leads perfectly into your SHARE phase, where you can present your Tableau dashboard and key findings.
+
+
+
+# Share phase with  and Tableau or Power BI:
+# Act phase or Recommendations:
